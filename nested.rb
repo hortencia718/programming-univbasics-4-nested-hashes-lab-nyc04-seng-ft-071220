@@ -156,8 +156,9 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
- programmer_hash [:dennis_ritchie][:languages] = ["Assembly"]
-# i forgot the << (push)
+ programmer_hash [:dennis_ritchie][:languages] << "Assembly"
+ 
+# i forgot the << (push), instaed of equals "assembly" it has to be "pushed in "
  programmer_hash
 end
 
