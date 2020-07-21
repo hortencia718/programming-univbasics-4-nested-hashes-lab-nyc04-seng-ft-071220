@@ -127,9 +127,12 @@ def changing_alan
       }
     }
     
+	programmer_hash[:alan_kay][:known_for] = alans_new_info
+	programmer_hash
+end
 # programmer_hash[:alan_kay][:known_for] =["GUI"]
 # programmer_hash
-end
+
 
 
 def adding_to_dennis
